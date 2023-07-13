@@ -1,0 +1,91 @@
+$screenFull: 1980px;
+$screenNorm: 1080px;
+
+$color-primary: #00b4f0;
+$color-primary-active: #1791e7;
+
+$color-black: #080829;
+$color-darkBlue: #090936;
+$color-white: #fff;
+$color-danger: #ff7782;
+$color-subTitle: #333333;
+$color-dark: #363949;
+$color-light: rgba(132, 139, 200, 0.18);
+$color-dark-variant: #677483;
+$color-other1: #3f53d8;
+$color-other2: #e51983;
+$color-other3: #36cdce;
+$color-other4: #92e2fb;
+$color-other5: #9c59fd;
+$color-other6: #4bd2ff;
+$color-textBlack: #080829;
+$color-textSubTitle: #333333;
+$color-textH4: #606060;
+$color-textP: #626262;
+$color-textPlaceholder: #c4c4c4;
+$color-textSoft: #d9d9d9;
+
+$gradient1: linear-gradient(315deg, #92e2fb 0%, #36cdce 100%);
+$gradient2: linear-gradient(315deg, #fe6d64 0%, #e51983 100%);
+$gradient3: linear-gradient(315deg, #4753dc 0%, #9c59fd 100%);
+$gradient4: linear-gradient(302.44deg, #b809c3 -21.94%, #9c59fd 112.64%);
+
+$shadowDeep: 5px 10px 40px rgba(0, 0, 0, 0.15);
+$shadowSoftDeep: 0px 20px 50px rgba(0, 0, 0, 0.1);
+$shadowMiddle: 0px 15px 20px rgba(0, 0, 0, 0.05);
+$shadowSoft: 0px 4px 15px rgba(0, 0, 0, 0.1);
+$shadowBtn: 0px 4px 20px rgba(0, 0, 0, 0.1);
+$shadowColor: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+
+$transit03: all 0.3s ease;
+$transit05: all 0.5s ease;
+$transit1: all 1s ease;
+$transitBezier: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+$zTop: 999;
+$zMid: 500;
+$zBot: 0;
+$zBot1: 1;
+$zBot2: 2;
+
+$H1: 94px;
+$H1Other: 55px;
+$H2: 45px;
+$H3: 36px;
+$H4: 32px;
+$H5: 28px;
+$H6: 22px;
+$textSmall: 17px;
+$a: 14px;
+
+$radiusBig: 100px;
+$radiusMid: 25px;
+$radiusSm: 10px;
+
+$gapBig: 100px;
+$gapMid: 50px;
+$gapStandart: 30px;
+
+
+@mixin flex($just, $align) {
+  display: flex;
+  justify-content: $just;
+  align-items: $align;
+}
+
+@mixin margin-auto {
+  margin: { 
+      left: auto;
+      right: auto;
+  }
+}
+
+@mixin box($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin paddingLR {
+  padding-left: 20px;
+  padding-right: 20px;
+}

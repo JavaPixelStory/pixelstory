@@ -1,0 +1,38 @@
+@import '../../styles/main.scss';
+
+.bg {
+  background-color: $color-black;
+}
+
+.inner {
+  @include margin-auto;
+  z-index: $zBot;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+.content {
+  position: relative;
+  width: 100%;
+  z-index: $zBot;
+}
+
+.avatar {
+  opacity: 0.5;
+  transition: $transit1;
+  &:hover {
+  transform: scale(1.05);
+  opacity: 1;
+  }
+}
+
+.gradient,
+.active {
+  background: $gradient4;
+}
+
+.active {
+  color: $color-white;
+  padding: 1rem;
+  border-radius: 100%;
+}

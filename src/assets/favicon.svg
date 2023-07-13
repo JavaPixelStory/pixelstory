@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" rx="2" fill="black"/>
+<rect x="2" y="1" width="21" height="21" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 3H6V11H12H13V12V18H21V3ZM12 18V12H6V18H12Z" fill="white"/>
+<mask id="mask0_239_7" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="6" y="3" width="15" height="15">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 3H6V11H12H13V12V18H21V3ZM12 18V12H6V18H12Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_239_7)">
+<path d="M6 3V2H5V3H6ZM21 3H22V2H21V3ZM6 11H5V12H6V11ZM13 11H14V10H13V11ZM13 18H12V19H13V18ZM21 18V19H22V18H21ZM12 18V19H13V18H12ZM12 12H13V11H12V12ZM6 12V11H5V12H6ZM6 18H5V19H6V18ZM6 4H21V2H6V4ZM7 11V3H5V11H7ZM12 10H6V12H12V10ZM13 10H12V12H13V10ZM14 12V11H12V12H14ZM14 18V12H12V18H14ZM21 17H13V19H21V17ZM20 3V18H22V3H20ZM13 18V12H11V18H13ZM12 11H6V13H12V11ZM7 18V12H5V18H7ZM12 17H6V19H12V17Z" fill="white"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 11H3H2V12V21V22H3H12H13V21V18H12V21H3V12H6V11Z" fill="white"/>
+</svg>
