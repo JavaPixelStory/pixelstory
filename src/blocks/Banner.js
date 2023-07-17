@@ -24,7 +24,7 @@ const Banner = () => {
                 variants={fadeIn('up', 0.3)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{ once: false, amount: 0.7 }}
+                viewport={{ once: true, amount: 0.7 }}
                 className='text-[50px] font-bold leading-[1.1] lg:text-[80px]'
               >
                 Andrew <span>LEBEDEV</span>
@@ -35,7 +35,7 @@ const Banner = () => {
               variants={fadeIn('up', 0.4)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold leading-[1]'
             >
               <span className='text-white mr-4'>I'm a</span>
@@ -52,7 +52,7 @@ const Banner = () => {
               variants={fadeIn('up', 0.5)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='max-w-lg mb-8 mx-auto lg:mx-0'
             >
               I'm a ui/ux designer and web developer with a lot of experience
@@ -67,7 +67,7 @@ const Banner = () => {
               variants={fadeIn('up', 0.6)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='flex items-center max-w-max gap-x-6 mb-12 mx-auto lg:mx-0 z-50'
             >
               <Btn link='contact' text='Contact me' />
@@ -78,7 +78,7 @@ const Banner = () => {
               variants={fadeIn('up', 0.8)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: true, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
             ></motion.div>
           </div>

@@ -33,7 +33,7 @@ const About = () => {
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='hidden lg:flex flex-1 bg-about bg-contain bg-no-repeat h-[650px] mix-blend-lighten bg-top'
           ></motion.div>
           {/* right */}
@@ -41,7 +41,7 @@ const About = () => {
             variants={fadeIn('left', 0.5)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='flex-1'
           >
             {/* text */}

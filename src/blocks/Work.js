@@ -16,7 +16,7 @@ const Work = () => {
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-10'
           >
             {/* text */}
@@ -54,7 +54,7 @@ const Work = () => {
             variants={fadeIn('left', 0.4)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: true, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-12'
           >
             <a
