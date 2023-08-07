@@ -4,4 +4,4 @@
 
 На firebase - [PixelStoryPart](https://pixelstory-web.web.app/)
 
-![PixelStory Part](https://ltdfoto.ru/images/2023/07/14/OPTY431-KOPIY-1687319b8397ad248.jpg)
+![PixelStory Part](https://github.com/JavaPixelStory/pixelstory/blob/main/part.png)
